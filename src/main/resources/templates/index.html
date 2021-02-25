@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8">
+    <title>Jokes</title>
+    <link rel="stylesheet" th:href="@{/app.css}">
+</head>
+<body>
+<body>
+
+<h1>Random Joke</h1>
+
+<img th:src="@{/img/compiler-bot.gif}" height="200" alt="gif logo">
+<h3 th:text="${joke}"> Insert Joke Here</h3>
+</body>
+</html>
